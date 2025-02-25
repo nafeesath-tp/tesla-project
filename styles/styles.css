@@ -15,11 +15,13 @@ body{
  
 }
 
-
+.button
+{
+  background-color:black;
 
 
 .teslaLogo{
-  height: 20px;
+  height:100px;
   width:120px;
   margin-top:10px;
   margin-left:20px;
