@@ -1,0 +1,214 @@
+
+.outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(246, 214, 175);
+  height: 3rem;
+ 
+}
+
+
+
+
+.teslaLogo{
+  height: 20px;
+  width:120px;
+  margin-top:10px;
+  margin-left:20px;
+}
+.navbar {
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+ 
+  
+}
+
+.center-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;}
+  .right-nav {
+    display: flex;
+    align-items: center;
+  }
+  .right-nav img {
+    height: 24px;
+    width: 24px;
+    padding:0 32px 0 0;
+  
+    cursor: pointer;
+  }
+  .section-with-bg, .another-section,.third-section,.fourth-section,.fifth-section,.sixth-section,.seventh-section,.eighth-section,.ninth-section,.tenth-section{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    padding:0; 
+  }
+  .section-with-bg {
+    background-image: url("../images/Homepage-Model-Y-Desktop-NA-v3.avif");
+  }
+  
+  .another-section {
+    background-image: url("../images/Homepage-Model-S-Desktop-US.png");
+  }
+  .third-section{
+    background-image:url("../images/Homepage-Model-3-Desktop-US.png");
+  }
+  .fourth-section{
+    background-image: url("../images/Homepage-Cybertruck-Desktop-v3.png");
+  }
+  .fifth-section{
+    background-image: url("../images/Homepage-Model-X-Desktop-US.png");
+    
+  }
+
+  .sixth-section{
+  
+    background-image:  url("../images/Homepage-Model-S-Desktop-US\ \(1\).png");
+  }
+  .seventh-section{
+    background-image:url("../images/Homepage-SolarPanels-01-Desktop.avif");
+  }
+  .eighth-section{
+    background-image: url("../images/Homepage-SolarRoof-Desktop-US.png");
+
+    
+  }
+  .ninth-section{
+    background-image: url("../images/Homepage-Powerwall-Desktop-US.png");
+
+  }
+  .tenth-section{
+    background-image:url("../images/Homepage-Accessories-Desktop-US\ \(1\).png");
+  }
+.header-container,.another-container,.third-container,.fourth-container,.fifth-container,.sixth-container,.seventh-container,.eight-container,.ninth-container,.tenth-container{
+  text-align: center;           
+  display: flex;
+  flex-direction: column;       
+  align-items: center;          
+                     
+}
+.header-container h1, .another-header h1,.third-container h1,.fifth-container h1,.sixth-container h1,.seventh-container h1,.eight-container h1,.ninth-container
+ {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color:white;
+}
+.header-container p, .another-header p,.third-container p,.fourth-container p,.fifth-container p,.sixth-container p,.seventh-container p,.eight-container p,.ninth-container p{
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color:white;
+}
+.buttons {
+  display: flex;
+  gap: 20px;   
+  text-align: center;
+  justify-content: center;
+}
+.cybertruck-logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.buttons button {
+  padding: 10px 20px;
+  margin-top:20px;     
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tenth-container h1{
+  margin-top:800px;
+  
+  color:white;
+  font-weight: bold;
+}
+.button button{
+  padding: 10px 20px;
+  margin-top:400px; 
+  margin-bottom:50px;    
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.video-section {
+  width: 100%;
+  position: relative; /* Keeps it in normal flow */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-clip {
+  width: 100%;         
+  height: 80vh;        
+  object-fit: cover;   
+  display: block;      
+}
+.background-clip {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  display: block;
+}
+
+.content {
+  position: absolute;
+  top: 50%;              
+  left: 5%;             
+  transform: translateY(-50%);
+  color: white;         
+  z-index: 1;           
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.para p{
+  color: rgb(113, 105, 105);
+}
+
+.list nav {
+  display: flex;          
+  gap: 20px;              
+}
+
+.list nav a {
+  text-decoration: none;
+  color: rgb(113, 105, 105);
+}
