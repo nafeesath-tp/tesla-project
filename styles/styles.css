@@ -1,5 +1,5 @@
 body{
-  overflow-X:hidden;
+  overflow-x:hidden;
 }
 .outer {
   position: fixed;
