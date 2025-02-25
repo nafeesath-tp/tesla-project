@@ -15,9 +15,10 @@ body{
  
 }
 
-.button
+.outer button
 {
   background-color:black;
+  padding:20px;
 }
 
 
