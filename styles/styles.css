@@ -1,4 +1,6 @@
-
+body{
+  overflow-X:hidden;
+}
 .outer {
   position: fixed;
   top: 0;
